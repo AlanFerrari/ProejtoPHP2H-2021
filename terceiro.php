@@ -31,7 +31,7 @@
         echo "Valor da variável dentro da função ".$nome;
     }
     exibir(); //chamando a função para imprir o echo dentro dela
-    echo "<br> Valor da variável fora da função ".$nome; //imprimindo o valor da variável local
+    echo "<br> Valor da variável fora da função ".$nome; //imprimindo o valor da variável local no script
 ?>
 <?php
     $ano = 2021; //variável local no script
