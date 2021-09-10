@@ -62,3 +62,14 @@ $n = 1;
         echo $s."<br>";
     }
 ?><hr>
+<?php
+    //Criando a função
+    function somaValor($num1,$num2){
+        $resp = $num1 + $num2;
+        echo "A soma é: ".$resp;
+    }
+
+    $valor1 = 10;
+    $valor2 = 15;
+
+    somaValor($valor1,$valor2); // executando a função
