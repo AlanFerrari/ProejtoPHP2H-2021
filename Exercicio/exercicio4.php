@@ -7,5 +7,5 @@
 	$porc = $produto * 9/100;
 	$produto -= $porc;
 
-	echo "<br><br>O valor do produto com desconto é de R$ ".$produto;
+	echo "<br><br>O valor do produto com desconto de 9% é de R$ ".$produto;
  ?>
