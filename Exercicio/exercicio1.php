@@ -4,7 +4,7 @@
 	$cod = 4;
 
 	echo "<br>Escolha o código do produto, pode ser (1, 3, 4, 8)";
-	echo "<br>Digite o código do produto: ".$cod;
+	echo "<br><br>Digite o código do produto: ".$cod;
 	echo "<br>Digite o valor de um produto: ".$produto;
 	
 		switch($cod)	{

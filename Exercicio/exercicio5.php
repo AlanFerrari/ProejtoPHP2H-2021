@@ -1,7 +1,7 @@
 <?php 
 
 	$numDeAulas = 10;
-	$horaAula = 124;
+		$horaAula = 124;
 
 	echo "<br>Digite quanto você ganha por aula: ".$horaAula;
 	echo "<br>Digite quantas aulas você deu esse mês: ".$numDeAulas;
@@ -51,6 +51,5 @@
 		$salarioLiquido = $salarioBruto - $inss;
 		echo "<br>Desconto INSS R$ ".$inss;
 		echo "<br><br>O seu sálario líquido é de R$ ".$salarioLiquido;
-	}
-	
+	}	
  ?>
