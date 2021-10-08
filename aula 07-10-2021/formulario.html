@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário</title>
+</head>
+<body>
+    <form name="cadastro" method="GET" action="pagina_form.php">
+       Nome: <input type="text" name="nome"><br><br>
+       Senha: <input type="password" name="senha"> <br> <br>
+       <input type="checkbox" name="termouso" value="termo"> Aceito o termo de uso <br> <br>
+       <input type="radio" name="sexo" value="fem"> Feminino
+       <input type="radio" name="sexo" value="mas"> Masculino <br>
+       <input type="hidden" name="login" value="admin"> <br>
+       &nbsp; &nbsp; &nbsp;
+       <input type="button" value="VOLTAR">
+       &nbsp; &nbsp; &nbsp;
+       <input type="reset" value="LIMPAR">
+       &nbsp; &nbsp; &nbsp;
+       <input type="submit" value="ENVIAR">
+    </form>
+</body>
+</html>
+
+<br><br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Limitando campos</title>
+</head>
+<body>
+    <form name="cadastro" method="POST" action="pargina_form">
+        Nome: <input type="text" name="nome" size="40" maxlength="20"><br><br>
+        <input type="submit" name="Enviar"><br><br>
+        <a href="#" onclick="document.cadastro.reset()">LIMPAR</a>
+
+    </form>
+</body>
+</html>
