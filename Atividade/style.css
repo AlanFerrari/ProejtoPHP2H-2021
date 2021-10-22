@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body {
+    background-color: #838386a3;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    background: lightgray;
+    width: 700px;
+    height: 600px;
+    margin: auto;
+}
+
+legend {
+    margin: 15px;
+    font: 20px sans-serif;
+}
+
+label {
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#iEscolha {
+    margin: 5px 0 5px 5px;
+    position: relative;
+    top: 2px;
+}
+
+label { 
+    margin-right: 10px;
+}
+
+div.margem {
+    margin-left: 60px;
+
+}
+
+label.iOutro {
+    margin: 0;
+    margin-left: 20px;
+}
+
+textarea {
+    width: 90%;
+    padding: 5px;
+    resize: none;
+    background: #fbfbfbbf;
+}
+
+div.ordenado input {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    background: #fbfbfbbf;
+    border: none;
+}
+
+div.ordenado label {
+    margin: 0;
+}
+
+.iReceber input {
+    position: relative;
+    top: 2px;
+}
+
+.iReceber label {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+div.margem > input[type="submit"],
+div.margem > input[type="reset"] {
+    background-color: #838386a3;
+    color: rgba(255, 255, 255, 0.857);
+    margin-right: 30px;
+}
+
+input.iOutro {
+    background: #fbfbfbbf;
+    border: none;
+}
+
+div.margem select {
+    background: #fbfbfbbf;
+}

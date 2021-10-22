@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form name="formulario" action="feedback.php">
+            <legend>O que você achou do site?</legend>
+            <div class="margem">
+                <input type="radio" name="nEscolha" id="iEscolha"> <label for="iMB"> Muito Bom</label>
+                <input type="radio" name="nEscolha" id="iEscolha"> <label for="iB"> Bom</label>
+                <input type="radio" name="nEscolha" id="iEscolha"> <label for="iR"> Regular</label>
+                <input type="radio" name="nEscolha" id="iEscolha"> <label for="iI"> Insatisfatório</label>
+            </div>
+            <legend>Qual a seção que vocé mais gostou?</legend>
+            <div class="margem">
+                <select name="nOpcao" id="iOpcao">
+                    <option value="Car">Em Cartaz</option>
+                    <option value="TS">Trilha Sonora</option>
+                    <option value="GF" selected>Galeria de Fotos</option>
+                    <option value="Bil">Bilheteria</option>
+                    <option value="nOu">Outra</option>
+                </select>
+                <label for="iOu" class="iOutro">Outra:</label> <input type="text" name="nOu" class="iOutro" size="25" maxlength="30">
+            </div>
+                <legend>Digite seus comentários no espaço abaixo:</legend>
+            <div class="margem">
+                <textarea name="nTexto" cols="40" rows="5"></textarea>
+            </div>
+            <legend>Diga-nos como entrar em contato com você:</legend>
+            <div class="margem ordenado">
+                <label for="iNome">Nome</label>&nbsp;&nbsp;&nbsp;
+                <input type="text" name="nNome" size="40" maxlength="50">
+                <br>
+                <label for="iEmail">E-mail</label>&nbsp;&nbsp;
+                <input type="email" name="nEmail" size="40" maxlength="50">
+                <br>
+                <label for="iFone">Telefone </label>
+                <input type="tel" name="nFone" size="15" maxlength="11">
+                <br>
+                <label for="iFax">Fax</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="tel" name="nFax">
+            </div>
+            <br>
+            <div class="margem iReceber">
+                <input type="checkbox" name="nReceber"> 
+                <label for="iReceber">Quero receber as novidades do site por e-mail</label>
+            </div>
+            <br>
+            <div class="margem">
+                <input type="submit" name="nEnviar" value="Enviar Dados">
+                <input type="reset" name="nLimpar" value="Limpar Formulário">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
