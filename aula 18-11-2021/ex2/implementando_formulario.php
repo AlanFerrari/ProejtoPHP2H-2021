@@ -2,15 +2,20 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Bloqueando páginas por sessões</title>
+	<title>Implementando os formulários</title>
 	<?php	
+		if($_POST) {
 
-		session_start();
+			session_start();
 
-		$_SESSION["nome"] = $_POST["nome"];
+			$_SESSION["nome"] = $_POST["nome"];
 
-		$_SESSION["senha"] = $_POST["senha"];
+			$_SESSION["senha"] = $_POST["senha"];
 
+
+			header("location:sessao_formulario.php");
+		}
+		
 	?>
 </head>
 <body>
